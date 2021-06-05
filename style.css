@@ -1,0 +1,619 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainpage {
+     padding: 35px 150px;
+ }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-items {
+    color: #4F5665;
+    font-family: 'Rubik', sans-serif;
+    padding-right: 40px;
+}
+
+.signin {
+    color: #0B132A;
+    margin-right: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.signin:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.signup {
+    color: #F53855;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    padding: 13px 45px;
+    font-family: 'Rubik', sans-serif;
+    transition-duration: 0.2s;
+}
+
+.signup:hover {
+    cursor: pointer;
+    background-color: #F53855;
+    color: white;
+
+}
+
+.contenthead {
+    margin-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+
+.contenttext {
+    color: #4F5665;
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.getstarted {
+    margin-top: 25px;
+    width: 250px;
+    height: 60px;
+    border: transparent;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 18px;
+    background-color: #F53838;
+    box-shadow: 0 0 5px #F53855;
+    transition-duration: 0.2s;
+}
+
+.getstarted:hover {
+    font-size: 20px;
+    color: #F53855;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #F53838;
+}
+
+.users{
+    display: flex;
+    align-items: center;
+}
+
+.users_info span{
+    display: block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.users_info{
+    margin-left: 37px;
+}
+
+.info{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 127px;
+    display: flex;
+    box-shadow: 0 15px 20px gainsboro;
+}
+
+.line{
+    width: 2px;
+    height: 100px;
+    background-color:#EEEFF2;
+    margin: 30px 30px 30px 130px;
+}
+
+.locations{
+    margin-left: 113px;
+    display: flex;
+    align-items: center;
+}
+
+.locations_info span{
+    display: block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.locations_info{
+    margin-left: 37px;
+}
+
+.text_under_numbers{
+    color: grey;
+}
+
+.servers{
+    display: flex;
+    align-items: center;
+    margin-left: 113px;
+}
+
+.servers_info span{
+    display: block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.servers_info{
+    margin-left: 37px;
+}
+
+.tariff_plan{
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-color: white;
+    margin: 50px;
+    font-family: 'Rubik', sans-serif;
+    transition-duration: 0.2s;
+}
+.tariff_plan:hover{
+    border: 2px solid #F53838;
+}
+.tariff_hat{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif ;
+}
+
+.tariff_description{
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.list{
+    padding-top: 30px;
+}
+
+.freelist{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.tariff_name{
+    font-size: 18px;
+    padding-top:30px ;
+}
+
+.freebutton{
+    padding: 13px 62px;
+    background: transparent;
+    color: #F53838;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+.freebutton:hover{
+    box-shadow: 0 5px 20px #F53838;
+    color: white;
+    background: #F53838;
+    cursor: pointer;
+
+}
+
+.tariff_list{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column ;
+    width:200px;
+    padding: 50px 75px;
+}
+
+.freetitle{
+    padding-top: 130px;
+    padding-bottom: 33px;
+}
+
+.freetitle2{
+    margin-top: 90px;
+    padding-bottom: 33px;
+}
+
+.freetitle3{
+    margin-top: 50px;
+    padding-bottom: 33px;
+}
+
+.all_tariffs{
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+}
+
+.greyback{
+    position: relative;
+    margin-top: 120px;
+    padding-top: 80px;
+    background-color: #f5f5f5;
+}
+
+.map_hat{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif ;
+}
+
+.map_description{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #4F5665;
+}
+
+.map{
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spons_logos{
+    margin: 0 47px;
+}
+
+.illustration{
+    margin-top: 95px;
+}
+
+.feedback_head{
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback_hat{
+    width: 447px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif ;
+}
+
+.feedback_description{
+    width: 555px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #4F5665;
+    line-height: 30px;
+}
+
+.features_section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.features_hat{
+    margin-top: 150px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif ;
+}
+
+.features_description{
+    margin-top: 20px;
+    text-align: left;
+    color: #4F5665;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+}
+
+.features_list{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #4F5665;
+}
+
+.features{
+    margin-left: 169px;
+}
+
+.features_list_body{
+    margin-top: 20px;
+}
+
+.feedback_user{
+    display: flex;
+    align-items: center;
+}
+
+.feedback_section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+  }
+
+.firstfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    margin-right: 20px;
+}
+
+.userinfo{
+    margin-right: auto;
+}
+
+.ratingvalue{
+    margin-right: 5px ;
+}
+
+.comment{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.secondfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+}
+
+.secondfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.thirdfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+}
+
+.thirdfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.fourthfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+}
+
+.fourthfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.fifthfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+}
+
+.fifthfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.sixthfeedback{
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    width: 360px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    transition-duration: 0.2s;
+}
+
+.sixthfeedback:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0 20px 40px darkgrey;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.jesusrate{
+    height: 11px ;
+    width: 23px;
+}
+
+.rates{
+    margin-left: 100px;
+}
+
+.buttons{
+    align-items: center;
+    margin: 56px 110px 56px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightarrow{
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F53838;
+}
+
+footer {
+    margin-top: 204px;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to top, #ffffff, #dbdbdb);
+    padding: 180px 150px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 27%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer_info{
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    width: 340px;
+    height: 61px;
+    color: #4F5665;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.social_networks{
+    margin: 35px 20px 0 20px;
+}
+
+.copyright{
+    color: #AFB5C0
+}
+
+.product_title{
+    font-size: 18px;
+}
+
+.product_item{
+    color: #4F5665;
+    margin-bottom: 10px;
+}
+
+.product{
+    margin: 0 80px 0 80px ;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.subscription_text{
+    font-family: 'Rubik', sans-serif;
+}
+
+.subscription_hat{
+    margin-bottom: 20px;
+    font-size: 35px;
+    width: 371px;
+    height: 80px;
+    line-height: 45px;
+}
+
+.subscription_description{
+    color: #4F5665;
+}
+
+.subscribe_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F53838;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    transition-duration: 0.2s;
+}
+
+.footer_subscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+    margin: 30px 150px 0 150px;
+    background-color: white;
+    width: 1140px;
+    height: 125px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px darkgrey;
+}
+.subscribe_button:hover {
+    font-size: 18px;
+    color: #F53855;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 10px 30px #F53838;
+}
+.facebook_social:hover{
+    height: 75px;
+    width: 75px;
+}
